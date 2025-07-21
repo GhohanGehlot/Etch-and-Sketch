@@ -1,3 +1,11 @@
-h1{
-    color: skyblue;
+#container{
+    display: grid;
+    border: none;
+    /* grid-template-columns: repeat( 2 , 1fr) ; */
+}
+
+div{
+    border: 1px solid black;
+    height: 25px;
+    width: 25px;
 }
